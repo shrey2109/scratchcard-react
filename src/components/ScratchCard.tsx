@@ -1,4 +1,6 @@
-import React, { ModifierKey, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
+
+import '../styles/card.css'
 
 type PropsType = {
   data: any,
@@ -54,6 +56,8 @@ const ScratchCard = ({data, variant, handleCoverScratched}: PropsType) => {
       if (variant === "blue") {
         color1 = "#2c67f2";
         color2 = "#62cff4";
+        // color1 = "#ffffff";
+        // color2 = "#000000";
       } else if (variant === "green") {
         color1 = "#53db97";
         color2 = "#0695b6";
@@ -167,8 +171,6 @@ const ScratchCard = ({data, variant, handleCoverScratched}: PropsType) => {
         <h4>{data}</h4>
       </div>
       {!coverRemoved && <canvas id="scratch" width="200" height="200"></canvas>}
-      {coverRemoved && <div>Cover Removed!</div>}
-      <div>Scratched: {scratchedPercentage.toFixed(2)}%</div>
     </div>
   );
 }

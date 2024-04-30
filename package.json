@@ -1,11 +1,12 @@
 {
-  "name": "scratchcard-react",
-  "version": "0.0.0",
+  "name": "scratchcard-reactjs",
+  "version": "0.0.1",
   "description": "",
   "type": "module",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
+    "start": "rollup -c rollup.config.js -w",
     "build": "npx rollup -c"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.3.1",
     "rollup": "^4.17.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.6.2"
   },
   "dependencies": {
