@@ -1,19 +1,24 @@
 {
   "name": "scratchcard-reactjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "type": "module",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
-    "start": "rollup -c rollup.config.js -w",
     "build": "npx rollup -c"
   },
-  "keywords": [],
+  "keywords": [
+    "scratchcard",
+    "scratch card",
+    "scratch-card",
+    "scratchcard-react",
+    "react-scratchcard",
+    "scratch-card react"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.3.1",
     "rollup": "^4.17.0",

@@ -4,8 +4,8 @@ import '../styles/card.css'
 
 type PropsType = {
   data: any,
-  variant: string,
-  handleCoverScratched: () => void
+  variant?: string,
+  handleCoverScratched?: () => void
 }
 
 type EventTypes = {
@@ -26,9 +26,7 @@ type EventTypes = {
   };
 };
 
-
-
-const ScratchCard = ({data, variant, handleCoverScratched}: PropsType) => {
+const ScratchCard = ({data, variant,  handleCoverScratched}: PropsType) => {
     const [scratchedPercentage, setScratchedPercentage] = useState(0);
   const [coverRemoved, setCoverRemoved] = useState(false);
 
@@ -130,7 +128,8 @@ const ScratchCard = ({data, variant, handleCoverScratched}: PropsType) => {
         if (currentScratchedPercentage >= 60) {
           // Remove the cover
           setCoverRemoved(true);
-          handleCoverScratched();
+          if(handleCoverScratched)
+            handleCoverScratched();
         }
       }
     };
