@@ -1,6 +1,7 @@
 {
   "name": "scratchcard-reactjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "repository": "https://github.com/shrey2109/scratchcard-react",
   "description": "",
   "type": "module",
   "types": "dist/index.d.ts",

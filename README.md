@@ -39,6 +39,8 @@ export default App;
 | data                 | `"no default value, **required**""` | 'This indicates the text inside the scratch card.'                                                    |
 | handleCoverScratched | `"no default value`                 | 'This denotes the function that may be executed once the card is scratched.'                          |
 
+- Feel free to raise Pull Request if you find any bug or any improvement.
+
 ## Created By @shrey2109
 
 My name is Shrey Parikh.

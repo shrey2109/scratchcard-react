@@ -6,6 +6,7 @@
   text-align: center;
   cursor: grabbing;
   border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .base {
@@ -24,13 +25,10 @@
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-#scratch:hover {
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
 .base h4 {
-  font-weight: 400;
-  color: #424242;
+  font-size: 19px;
+  font-weight: 500;
+  color: #141414;
   padding: 1rem;
 }
 
