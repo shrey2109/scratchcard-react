@@ -53,6 +53,8 @@ const ScratchCard = ({data, variant,  handleCoverScratched}: PropsType) => {
       if (variant === "blue") {
         color1 = "#2c67f2";
         color2 = "#62cff4";
+        // color1 = "#ffffff";
+        // color2 = "#000000";
       } else if (variant === "green") {
         color1 = "#53db97";
         color2 = "#0695b6";
