@@ -1,6 +1,9 @@
 # Demo
 
-![enter image description here](https://s12.gifyu.com/images/SaLAN.gif)
+**Interactive scratch card functionality made simple for your app! ✨**
+
+![enter image description here](https://s7.gifyu.com/images/SPxXQ.gif)
+
 _If a user reveals over 60% of the content and removes their cursor, the remaining portion is automatically revealed, completing the action._
 
 ## Installation
@@ -20,7 +23,7 @@ const App = () => {
     <>
       <ScratchCard
         variant="blue"
-        data="YOU WON 5$"
+        data="YOU WON 5$!!"
         handleCoverScratched={() => {
           console.log('YAY! COVER IS SCRATCHED');
         }}
